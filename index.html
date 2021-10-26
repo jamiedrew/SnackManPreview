@@ -16,18 +16,26 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
+      <!-- <div id="unity-mobile-warning">
+        WebGL builds are not supported on mobile devices.
+      </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">Snac Man</div>
+      </div> -->
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/0_3_5_1.loader.js";
+      var loaderUrl = buildUrl + "/0_3_5_2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/0_3_5_1.data",
-        frameworkUrl: buildUrl + "/0_3_5_1.framework.js",
-        codeUrl: buildUrl + "/0_3_5_1.wasm",
+        dataUrl: buildUrl + "/0_3_5_2.data",
+        frameworkUrl: buildUrl + "/0_3_5_2.framework.js",
+        codeUrl: buildUrl + "/0_3_5_2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Mawdesky",
         productName: "Snac Man",
-        productVersion: "0.3.4",
+        productVersion: "0.3.5.2",
       };
 
       var container = document.querySelector("#unity-container");
